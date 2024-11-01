@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Convosuite - Low-code LLM apps builder &amp; Invite your team, Build and deploy AI Applications in minutes.
+    </title>
+    <link rel="stylesheet" href="assets/css/style-s3.css?v1.2.0">
+</head>
+
+<body class="nk-body" data-menu-collapse="lg">
+    <div class="nk-app-root ">
+        <header class="nk-header has-shape">
+            <div class="nk-shape bg-shape-blur-c ms-n20p mt-n20p start-50 translate-middle-x"></div>
+            <div class="nk-header-main nk-menu-main will-shrink has-border ignore-mask">
+                <div class="container">
+                    <div class="nk-header-wrap">
+                        <div class="nk-header-logo">
+                            <a href="index.html" class="logo-link">
+                                <div class="logo-wrap">
+                                    <img class="logo-img logo-dark" src="images/logo-green-dark.png"
+                                        srcset="images/logo-green-dark2x.png 2x" alt="">
+                                </div>
+                            </a>
+                        </div><!-- .nk-header-logo -->
+                        <div class="nk-header-toggle">
+                            <button class="btn btn-light btn-icon header-menu-toggle">
+                                <em class="icon ni ni-menu"></em>
+                            </button>
+                        </div>
+                        <div class="nk-header-toggle">
+                            <button class="dark-mode-toggle">
+                                <em class="off icon ni ni-sun-fill"></em>
+                                <em class="on icon ni ni-moon-fill"></em>
+                            </button>
+                            <button class="btn btn-light btn-icon header-menu-toggle">
+                                <em class="icon ni ni-menu"></em>
+                            </button>
+                        </div>
+                        <nav class="nk-header-menu nk-menu">
+                            <ul class="nk-menu-list mx-auto">
+                                <li class="nk-menu-item has-dropdown">
+                                    <a href="#" class="nk-menu-link nk-menu-toggle">
+                                        <span class="nk-menu-text">Solutions</span>
+                                    </a>
+                                    <div class="nk-menu-dropdown nk-menu-mega shadow-lg">
+                                        <div class="nk-menu-mega-wrap">
+                                            <ul class="nk-menu-sub">
+                                                <li class="ps-4 fw-bold mb-2"><a href="usecase-details.html">AI ChatBots
+                                                        builder</a></li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="usecase-details.html">Add a
+                                                        ChatGPT-Style Chatbot to Your Site</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="usecase-details.html">Custom ChatGPT
+                                                        for your data</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="usecase-details.html">Connect
+                                                        Knowledge Base</a>
+                                                </li>
+
+                                                <li class="ps-4 mt-4 fw-bold mb-2"><a href="chat-convo.html">Internal
+                                                        Tools</a></li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="chat-convo.html">ChatConvo - ChatGPT
+                                                        Plus for buissness</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="chat-convo.html">Prompts Engineering
+                                                        templates - Tools</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="dashboard.html">AI InsightPro
+                                                        Dashboard </a>
+
+                                                </li>
+                                                <!-- <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank"
+                                                        href="register.html">Register</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank"
+                                                        href="register-s2.html">Register S2</a>
+                                                </li> -->
+                                                <!-- <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank"
+                                                        href="terms-condition.html">Terms &amp; Condition</a>
+                                                </li> -->
+                                                <li class="ps-4 mt-4 fw-bold mb-2"><a href="chat-convo.html">Dedicated
+                                                        Hosting - Cloud services</a></li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link"
+                                                        href="https://aws.amazon.com/marketplace/pp/prodview-fk4xbj3ch2e4o">SaaS
+                                                        solution - AWS MarketPlace.</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link"
+                                                        href="https://appsource.microsoft.com/en-us/product/web-apps/gptechnologiesab1688113151654.chatgpt-gpt-4-saas">Saas
+                                                        Solution - Azure Marketplace</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nk-menu-item">
+                                    <a href="usecase-details.html" class="nk-menu-link">
+                                        <span class="nk-menu-text">Use Cases</span>
+                                    </a>
+                                </li>
+                                <li class="nk-menu-item">
+                                    <a href="https://docs.convosuite.com" class="nk-menu-link">
+                                        <span class="nk-menu-text">Docs</span>
+                                    </a>
+                                </li>
+                                <li class="nk-menu-item">
+                                    <a href="#how-section" class="nk-menu-link">
+                                        <span class="nk-menu-text">How it Works</span>
+                                    </a>
+                                </li>
+
+                                <div class="nk-menu-dropdown nk-menu-mega">
+                                    <div class="nk-menu-mega-wrap">
+                                        <ul class="nk-menu-sub">
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" href="about.html">About</a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" href="usecase.html">Use Case</a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" href="usecase-details.html">Use Case Details
+                                                    <div class="badge bg-primary ms-2 me-n4 px-2 rounded-pill">New</div>
+                                                </a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" href="usecase-s2.html">Use Case S2</a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" href="usecase-details-s2.html">Use Case Details
+                                                    S2 <div class="badge bg-primary ms-2 me-n4 px-2 rounded-pill">New
+                                                    </div></a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" href="pricing.html">Pricing</a>
+                                            </li>
+
+
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" href="pricing.html">Pricing</a>
+                                            </li>
+
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" href="blog.html">Blog</a>
+                                            </li>
+                                        </ul>
+                                        <ul class="nk-menu-sub">
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" href="blog-single.html">Blog Single</a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" href="features.html">Features</a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" href="contact.html">Contact</a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" href="contact-s2.html">Contact S2</a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" target="_blank" href="login.html">Login</a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" target="_blank" href="login-s2.html">Login
+                                                    S2</a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" target="_blank"
+                                                    href="register.html">Register</a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" target="_blank" href="register-s2.html">Register
+                                                    S2</a>
+                                            </li>
+                                        </ul>
+                                        <ul class="nk-menu-sub">
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" target="_blank" href="reset.html">Reset</a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" target="_blank" href="reset-s2.html">Reset
+                                                    S2</a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" target="_blank" href="404.html">404 Error</a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" target="_blank" href="404-s2.html">404 Error
+                                                    S2</a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" target="_blank" href="504.html">504 Error</a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" target="_blank" href="504-s2.html">504 Error
+                                                    s2</a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" target="_blank"
+                                                    href="terms-condition.html">Terms &amp; Condition</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                </li>
+                                <li class="nk-menu-item">
+                                    <a href="pricing.html" class="nk-menu-link">
+                                        <span class="nk-menu-text">Pricing</span>
+                                    </a>
+                                </li>
+
+                            </ul><!-- .nk-menu-list -->
+                            <ul class="nk-menu-buttons flex-lg-row-reverse">
+                                <li><a href="contact.html" class="btn btn-primary">Demo</a></li>
+                                <li class="dropdown">
+                                    <a class="link link-base fw-medium dropdown-toggle" href="#"
+                                        data-bs-toggle="dropdown" data-bs-offset="0, 12"> Login </a>
+                                    <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0">
+                                        <li><a class="dropdown-item link-base py-2 px-4"
+                                                href="https://convosuite.com/login">Business Customers</a></li>
+                                        <li><a class="dropdown-item link-base py-2 px-4"
+                                                href="https://chatgp.se">Individual Customers</a></li>
+                                    </ul>
+                                </li>
+                            </ul><!-- .nk-menu-buttons -->
+                        </nav><!-- .nk-header-menu -->
+                    </div><!-- .nk-header-wrap -->
+        </header><!-- .nk-header -->
+
+        <main class="nk-pages">
+            <section class="section section-bottom-0 has-shape has-mask">
+                <div class="nk-shape bg-shape-blur-m mt-8 start-50 top-0 translate-middle-x"></div>
+                <div class="nk-mask bg-pattern-dot bg-blend-around mt-n5 mb-10p mh-50vh"></div>
+                <div class="container">
+                    <div class="section-head">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-11 col-xl-10 col-xxl-9">
+                                <h6 class="overline-title text-primary">Contact us</h6>
+                                <h2 class="title">We love getting feedback, Questions, Find out what others already
+                                    know. Book a demo.
+                                </h2>
+                            </div>
+                        </div>
+                    </div><!-- .section-head -->
+                    <div class="section-content mt-8">
+                        <div class="row g-gs justify-content-center justify-content-lg-between">
+                            <div class="col-xl-5 col-lg-6 col-md-8 text-lg-start text-center">
+                                <div class="block-text pt-lg-4">
+                                    <h3 class="title h2">Let's talk</h3>
+                                    <p>Hate forms? Send us an <a href="mailto:support@convosuite.com">Email</a> instead.
+                                    </p>
+                                    <ul class="row gy-4 pt-4">
+                                        <li class="col-12">
+                                            <h5>Contact</h5>
+                                            <div
+                                                class="d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-start">
+                                                <em
+                                                    class="icon text-base fs-5 mb-2 mb-lg-0 me-lg-2 ni ni-call-alt-fill"></em>
+                                            </div>
+                                        </li>
+                                        <li class="col-12">
+                                            <h5>Email</h5>
+                                            <div
+                                                class="d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-start">
+                                                <em
+                                                    class="icon text-base fs-5 mb-2 mb-lg-0 me-lg-2 ni ni-mail-fill"></em>
+                                                <span>support@convosuite.com</span>
+                                            </div>
+                                        </li>
+                                        <li class="col-12">
+                                            <h5>Office</h5>
+                                            <div
+                                                class="d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-start">
+                                                <em
+                                                    class="icon text-base fs-5 mb-2 mb-lg-0 me-lg-2 ni ni-map-pin-fill"></em>
+                                                <span>Ursviksvägen 113,17446 Sundbyberg, Sweden</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card border-0 shadow-sm rounded-4">
+                                    <div class="card-body">
+                                        <p class="title lead mb-4">Please feel free to contact us using form below
+                                        </p>
+                                        <script defer>
+                                            document.addEventListener('DOMContentLoaded', function () {
+                                                var form = document.querySelector('.form-submit-init-us');
+                                                form.addEventListener('submit', function (event) {
+                                                    event.preventDefault(); // Prevent the default form submission
+
+                                                    // Serialize the form data into an object
+                                                    var formData = new FormData(form);
+                                                    var data = Object.fromEntries(formData);
+
+                                                    // Get the action URL from the form's data-action attribute
+                                                    var actionURL = form.getAttribute('data-action');
+
+                                                    // Send the data to the server using fetch
+                                                    fetch(actionURL, {
+                                                        method: 'POST',
+                                                        headers: {
+                                                            'Content-Type': 'application/json',
+                                                        },
+                                                        body: JSON.stringify(data),
+                                                    })
+                                                        .then(response => response.json())
+                                                        .then(data => {
+                                                            // Handle success
+                                                            document.querySelector('.form-resul').innerHTML = '<p>Message sent successfully!</p>';
+                                                            form.reset();
+                                                        })
+                                                        .catch(error => {
+                                                            // Handle error
+                                                            console.error('An error occurred:', error);
+                                                            document.querySelector('.form-resul').innerHTML = '<p>An error occurred while sending the message. Please try again.</p>';
+                                                        });
+                                                });
+                                            });
+
+                                        </script>
+                                        <form data-action="../api/auth/contact-us" method="post"
+                                            class="form-submit-init-us">
+                                            <div class="row g-4">
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <div class="form-control-wrap">
+                                                            <input type="text" name="userName"
+                                                                class="form-control form-control-lg"
+                                                                placeholder="Your Name" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- .col -->
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <div class="form-control-wrap">
+                                                            <input type="email" name="email"
+                                                                class="form-control form-control-lg"
+                                                                placeholder="Your Email Address" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <div class="form-control-wrap">
+                                                            <label for="company-size" class="form-label">Company
+                                                                Size</label>
+                                                            <select name="companySize" id="company-size"
+                                                                class="form-control form-control-lg" required>
+                                                                <option value="1-10">Select number of employees</option>
+                                                                <option value="1-10">1-10</option>
+                                                                <option value="11-100">11-100</option>
+                                                                <option value="101-1000">101-1000</option>
+                                                                <option value="1000+">1000+</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- .col -->
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <div class="form-control-wrap">
+                                                            <input type="text" name="userSubject"
+                                                                class="form-control form-control-lg"
+                                                                placeholder="Company website" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- .col -->
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <div class="form-control-wrap">
+                                                            <textarea name="userMessage"
+                                                                class="form-control form-control-lg"
+                                                                placeholder="Enter your message" required></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- .col -->
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <button class="btn btn-primary" type="submit"
+                                                            id="submit-btn">Contact Us</button>
+                                                    </div>
+                                                    <div class="form-resul mt-4"></div>
+                                                </div>
+                                            </div>
+                                            <!-- .row -->
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- .section-content -->
+                </div><!-- .container -->
+            </section><!-- .section -->
+
+            <section class="section section-bottom-0">
+                <div class="container">
+                    <div class="section-wrap bg-primary bg-opacity-10 rounded-4">
+                        <div class="section-content bg-pattern-dot-sm p-4 p-sm-6">
+                            <div class="row justify-content-center text-center">
+                                <div class="col-xl-9">
+                                    <div class="block-text">
+                                        <!-- <h6 class="overline-title text-primary">Boost your writing productivity</h6> -->
+                                        <h2 class="title">Ready to get started?</h2>
+                                        <p class="lead mt-3">Build and Deploy AI Applications in minutes.</p>
+                                        <ul class="btn-list btn-list-inline">
+                                            <li><a href="contact.html" class="btn btn-lg btn-primary"><span>Book a
+                                                        Demo</span><em class="icon ni ni-arrow-long-right"></em></a>
+                                            </li>
+                                        </ul>
+                                        <!-- <ul class="list list-row gy-0 gx-3">
+                                            <li><em class="icon ni ni-check-circle-fill text-success"></em><span>No
+                                                    credit card required</span></li>
+                                            <li><em class="icon ni ni-check-circle-fill text-success"></em><span>Cancel
+                                                    anytime</span></li>
+                                            <li><em class="icon ni ni-check-circle-fill text-success"></em><span>10+
+                                                    tools to expolore</span></li>
+                                        </ul> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- .section-content -->
+                    </div><!-- .section-wrap -->
+                </div><!-- .container -->
+            </section><!-- .section -->
+        </main>
+
+        <footer class="nk-footer">
+            <div class="section section-sm section-top-0">
+                <div class="container">
+                    <div class="row g-5">
+                        <div class="col-xl-4 col-lg-7 col-md-9 me-auto">
+                            <div class="block-text pe-xxl-5">
+                                <a href="index.html" class="logo-link mb-4">
+                                    <div class="logo-wrap">
+                                        <img class="logo-img logo-dark" src="images/logo-green-dark2x.png"
+                                            srcset="images/logo-green-dark2x.png 2x" alt="">
+                                    </div>
+                                </a>
+                                <p>Empowering Innovation: AI Simplified, Solutions Amplified, Unlock the limitless
+                                    potential of AI.</p>
+                            </div>
+                        </div><!-- .col -->
+                        <div class="col-xl">
+                            <div class="row g-gs">
+                                <div class="col-lg-3 col-sm-4 col-6">
+                                    <div class="wgs">
+                                        <h6 class="wgs-title overline-title text-heading">Company</h6>
+                                        <ul class="list gy-2 list-link-base">
+                                            <li><a class="link-base" href="#">About Us</a></li>
+                                            <li><a class="link-base" href="terms-condition.html">Terms & Conditions</a>
+                                            </li>
+                                            <li><a class="link-base" href="privacy-policy.html">Privacy Policy</a></li>
+                                        </ul>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-lg-3 col-sm-4 col-6">
+                                    <div class="wgs">
+                                        <h6 class="wgs-title overline-title text-heading">Solutions</h6>
+                                        <ul class="list gy-2 list-link-base">
+                                            <li><a class="link-base" href="index.html">AI ChatBots</a></li>
+                                            <li><a class="link-base" href="chat-convo.html">Internal AI Tools</a></li>
+                                            <li><a class="link-base" href="chat-convo.html">Prompts Engineering
+                                                    Templates</a></li>
+                                            <li><a class="link-base" href="dashboard.html">AI InsightPro Dashboard</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-lg-3 col-sm-4 col-6">
+                                    <div class="wgs">
+                                        <h6 class="wgs-title overline-title text-heading">Support</h6>
+                                        <ul class="list gy-2 list-link-base">
+                                            <li><a class="link-base" href="contact.html">Contact Us</a></li>
+                                            <li><a class="link-base"
+                                                    href="https://docs.convosuite.com">Documentation</a></li>
+                                            <li><a class="link-base" href="contact.html">Report a Bug</a></li>
+                                            <li><a class="link-base" href="contact.html">Request a New Feature</a></li>
+                                        </ul>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-lg-3 col-md-5 col-sm-6">
+                                    <div class="wgs">
+                                        <h6 class="wgs-title overline-title text-heading">Get In Touch</h6>
+                                        <ul class="list gy-3">
+                                            <li><em class="icon text-primary fs-5 ni ni-mail-fill"></em>
+                                                <span>support@convosuite.com</span>
+                                            </li>
+                                            <li><em class="icon text-primary fs-5 ni ni-map-pin-fill"></em>
+                                                <span>Sweden, Stockholm, Sundbyberg</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div><!-- .col -->
+                            </div><!-- .row -->
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .container -->
+            </div><!-- .section -->
+            <div class="section section-0">
+                <hr class="border-opacity-25 border-primary m-0">
+                <div class="container">
+                    <div class="py-4">
+                        <div class="row">
+                            <div class="col-md">
+                                <p class="mb-2 mb-md-0">All Rights Reserved. &copy; 2023. GP Technologies AB,
+                                    Org:559435-9936 <a href="https://www.convosuite.com"
+                                        class="fw-bold text-base">Convosuite</a>.</p>
+                            </div><!-- .row -->
+                        </div>
+                    </div><!-- .container -->
+                </div><!-- .section -->
+        </footer>
+    </div>
+    <script src="assets/js/bundle.js?v1.2.0"></script>
+    <script src="assets/js/scripts.js?v1.2.0"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P3X1GX20WF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-P3X1GX20WF');
+    </script>
+</body>
+
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/gh/convosuite/FlowChatEmbed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "54c38010-4bf7-477a-8efa-231b63a23626",
+        apiHost: "https://studio.convosuite.com",
+    })
+</script>

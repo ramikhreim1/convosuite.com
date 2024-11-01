@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      margin: 0 0 20px;
+      color: #00458b;
+    }
+
+    p {
+      margin: 0 0 20px;
+      color: #333;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: #00458b;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    .cta-button:hover {
+      background-color: #003366;
+      cursor: pointer;
+    }
+
+    .invitation-link {
+      font-size: 15px;
+      font-weight: bold;
+      color: #00458b;
+    }
+
+    .signature {
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Welcome aboard, Convosuite Team</h1>
+
+  <p>Dear {{name}},</p>
+
+  <p>
+    You have been invited to collaborate with the team at
+    <b>Convosuite.com</b>. Join by creating an account from here:
+  </p>
+
+  <a class="cta-button" href="{{invitationLink}}" target="_blank">
+    Join Now!
+  </a>
+
+  <p>
+    Or try pasting this link in your browser:
+    <a class="invitation-link" href="{{invitationLink}}" target="_blank">
+      {{invitationLink}}
+    </a>
+  </p>
+
+  <p>
+    Please note that this invite link is valid for you and with only this email account. If you think this is a mistake,
+    please contact your service provider.
+  </p>
+
+  <p>
+    If you are not the intended user, then please ignore this email.
+  </p>
+
+  <p>Thank you. We look forward to serving you!</p>
+
+  <p class="signature">
+    Best regards,<br />
+    Convosuite Team
+  </p>
+</body>
+
+</html>

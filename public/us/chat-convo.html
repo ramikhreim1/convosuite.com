@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Convosuite - Low-code LLM apps builder &amp; Invite your team, ChatGPT Plus For buissness.</title>
+    <link rel="stylesheet" href="assets/css/style-s3.css?v1.2.0">
+</head>
+
+<body class="nk-body" data-menu-collapse="lg">
+    <div class="nk-app-root ">
+        <header class="nk-header has-shape">
+            <div class="nk-shape bg-shape-blur-c ms-n20p mt-n20p start-50 translate-middle-x"></div>
+            <div class="nk-header-main nk-menu-main will-shrink has-border ignore-mask">
+                <div class="container">
+                    <div class="nk-header-wrap">
+                        <div class="nk-header-logo">
+                            <a href="index.html" class="logo-link">
+                                <div class="logo-wrap">
+                                    <img class="logo-img logo-dark" src="images/logo-green-dark.png" srcset="images/logo-green-dark2x.png 2x" alt="">
+                                </div>
+                            </a>
+                        </div><!-- .nk-header-logo -->
+                        <div class="nk-header-toggle">
+                            <button class="btn btn-light btn-icon header-menu-toggle">
+                                <em class="icon ni ni-menu"></em>
+                            </button>
+                        </div>
+                        <div class="nk-header-toggle">
+                            <button class="dark-mode-toggle">
+                                <em class="off icon ni ni-sun-fill"></em>
+                                <em class="on icon ni ni-moon-fill"></em>
+                            </button>
+                            <button class="btn btn-light btn-icon header-menu-toggle">
+                                <em class="icon ni ni-menu"></em>
+                            </button>
+                        </div>
+                        <nav class="nk-header-menu nk-menu">
+                            <ul class="nk-menu-list mx-auto">
+                                <li class="nk-menu-item has-dropdown">
+                                    <a href="#" class="nk-menu-link nk-menu-toggle">
+                                        <span class="nk-menu-text">Solutions</span>
+                                    </a>
+                                    <div class="nk-menu-dropdown nk-menu-mega shadow-lg">
+                                        <div class="nk-menu-mega-wrap">
+                                            <ul class="nk-menu-sub">
+                                                <li class="ps-4 fw-bold mb-2"><a href="usecase-details.html">AI ChatBots builder</a></li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="usecase-details.html">Add a ChatGPT-Style Chatbot to Your Site</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="usecase-details.html">Custom ChatGPT for your data</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="usecase-details.html">Connect Knowledge Base</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="dashboard.html">AI InsightPro Dashboard</a>
+                                                </li>
+                                       <!-- <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank"
+                                                        href="register.html">Register</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank"
+                                                        href="register-s2.html">Register S2</a>
+                                                </li> -->
+                            <!-- <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank"
+                                                        href="terms-condition.html">Terms &amp; Condition</a>
+                                                </li> -->
+                                                <li class="ps-4 mt-4 fw-bold mb-2"><a href="chat-convo.html">Internal Tools</a></li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="chat-convo.html">ChatConvo - ChatGPT Plus for buissness</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="chat-convo.html">Prompts Engineering templates - Tools</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="chat-convo.html">AI InsightPro Dashboard </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nk-menu-item">
+                                    <a href="usecase-details.html" class="nk-menu-link">
+                                        <span class="nk-menu-text">Use Cases</span>
+                                    </a>
+                                </li>
+                                <li class="nk-menu-item">
+                                    <a href="https://docs.convosuite.com" class="nk-menu-link">
+                                        <span class="nk-menu-text">Docs</span>
+                                    </a>
+                                </li>
+                                <li class="nk-menu-item">
+                                    <a href="#how-section" class="nk-menu-link">
+                                        <span class="nk-menu-text">How it Works</span>
+                                    </a>
+                                </li>
+
+                                    <div class="nk-menu-dropdown nk-menu-mega">
+                                        <div class="nk-menu-mega-wrap">
+                                            <ul class="nk-menu-sub">
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="about.html">About</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="usecase.html">Use Case</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="usecase-details.html">Use Case Details <div class="badge bg-primary ms-2 me-n4 px-2 rounded-pill">New</div></a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="usecase-s2.html">Use Case S2</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="usecase-details-s2.html">Use Case Details S2 <div class="badge bg-primary ms-2 me-n4 px-2 rounded-pill">New</div></a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="pricing.html">Pricing</a>
+                                                </li>
+
+
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="pricing.html">Pricing</a>
+                                                </li>
+
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="blog.html">Blog</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="nk-menu-sub">
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="blog-single.html">Blog Single</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="features.html">Features</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="contact.html">Contact</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="contact-s2.html">Contact S2</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="login.html">Login</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="login-s2.html">Login S2</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="register.html">Register</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="register-s2.html">Register S2</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="nk-menu-sub">
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="reset.html">Reset</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="reset-s2.html">Reset S2</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="404.html">404 Error</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="404-s2.html">404 Error S2</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="504.html">504 Error</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="504-s2.html">504 Error s2</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="terms-condition.html">Terms &amp; Condition</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nk-menu-item">
+                                    <a href="pricing.html" class="nk-menu-link">
+                                        <span class="nk-menu-text">Pricing</span>
+                                    </a>
+                                </li>
+
+                            </ul><!-- .nk-menu-list -->
+                            <ul class="nk-menu-buttons flex-lg-row-reverse">
+                                <li><a href="contact.html" class="btn btn-primary">Demo</a></li>
+                                <li class="dropdown">
+                                    <a class="link link-base fw-medium dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-offset="0, 12"> Login </a>
+                                    <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0">
+                                        <li><a class="dropdown-item link-base py-2 px-4" href="https://convosuite.com/login">Business Customers</a></li>
+                                        <li><a class="dropdown-item link-base py-2 px-4" href="https://chatgp.se">Individual Customers</a></li>
+                                    </ul>
+                                </li>
+                            </ul><!-- .nk-menu-buttons -->
+                        </nav><!-- .nk-header-menu -->
+                    </div><!-- .nk-header-wrap -->
+                </div><!-- .container -->
+            </div><!-- .nk-header-main -->
+
+            <div class="nk-hero pt-xl-5">
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <div class="nk-hero-content py-5 py-lg-6">
+                                <h1 class="title mb-2">ChatConvo Private & secure- GPT-4 Enhanced Built Alternative ChatGPT Plus
+                                    with Superpowers.</h1>
+
+                            </div>
+                            <div class="nk-hero-gfx">
+                                <!-- <img class="w-100 rounded-top-4" src="images/gfx/banner/a.jpg" alt=""> -->
+                                <video class="w-100 h-100 rounded-top-4" loop muted autoplay>
+                                    <source src="https://s3.eu-north-1.amazonaws.com/chatgp.se/chatgpt+gpt4+whisper.mp4"
+                                        type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+   <!-- Comparison Table -->
+   <div class="row justify-content-center text-center mt-5">
+    <div class="col-lg-11 col-xl-9 col-xxl-8">
+        <h2 class="mb-4">ChatGPT Plus Vs ChatConvo</h2> <!-- Headline for the table -->
+        <table class="w-100">
+            <thead>
+                <tr>
+                    <th>Features</th>
+                    <th>ChatGPT Plus</th>
+                    <th>ChatConvo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Trains on your data.</td>
+                    <td>&#10003;</td>
+                    <td>Never, Azure OpenAI privacy-policy.</td>
+                </tr>
+                <tr>
+                    <td>Building Your Own Knowledge Base with LangChain&Vector DB (Pdf,docs,text,JSON).</td>
+                    <td>X</td>
+                    <td>&#10003;</td>
+                </tr>
+                <tr>
+                    <td>GPT-4 Message Limit.</td>
+                    <td>50 messages every 3 hours</td>
+                    <td>Unlimited</td>
+                </tr>
+                <tr>
+                    <td>Multiple AI Providers&OpenSource LLMs.</td>
+                    <td>X</td>
+                    <td>&#10003;</td>
+                </tr>
+                <tr>
+                    <td>Manage your Team.</td>
+                    <td>X</td>
+                    <td>&#10003;</td>
+                </tr>
+                <tr>
+                    <td>OpenAI/Whisper (Transcripts, Upload, Videos, Audios).</td>
+                    <td>X</td>
+                    <td>&#10003;</td>
+                </tr>
+                <tr>
+                    <td>Voice Commands.</td>
+                    <td>X</td>
+                    <td>&#10003;</td>
+                </tr>
+                <tr>
+                    <td>AI Art Image Generator.</td>
+                    <td>X</td>
+                    <td>&#10003;</td>
+                </tr>
+                <tr>
+                    <td>Google Integration to Create Content with latest information.</td>
+                    <td>Limited to 2021</td>
+                    <td>&#10003;</td>
+                </tr>
+                <tr>
+                    <td>Internet Access (summarize webpages).</td>
+                    <td>X</td>
+                    <td>&#10003;</td>
+                </tr>
+                <tr>
+                    <td>Character Recognition (OCR) get text from images.</td>
+                    <td>X</td>
+                    <td>&#10003;</td>
+                </tr>
+                <tr>
+                    <td>flexibility to be hosted on private cloud platforms.</td>
+                    <td>X</td>
+                    <td>&#10003;</td>
+                </tr>
+                <tr>
+                    <td>AI InsightPro Dashboard (display user activity and growth, usage statistics and more.</td>
+                    <td>X</td>
+                    <td>&#10003;</td>
+                </tr>
+                <tr>
+                    <td>Cost effective solution.</td>
+                    <td>X</td>
+                    <td>&#10003;</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+</div><!-- .nk-hero -->
+</header><!-- .nk-header -->
+
+<!-- Responsive Styling -->
+<style>
+table {
+border-collapse: collapse;
+overflow: hidden;
+border-spacing: 0;
+width: 100%;
+}
+
+th, td {
+border: 1px solid #ccc;
+padding: 10px;
+text-align: left;
+}
+
+th {
+background-color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+th, td {
+    display: block;
+}
+th, td:nth-child(n+2) {
+    border-top: none;
+}
+td {
+    position: relative;
+}
+td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    background-color: #f2f2f2;
+    padding: 5px;
+}
+}
+</style>
+            </div><!-- .nk-hero -->
+        </header><!-- .nk-header -->
+
+        <main class="nk-pages">
+            <section class="d-none section section-bottom-0 has-shape">
+                <div class="nk-shape bg-shape-blur-a mt-8 start-50 top-0 translate-middle-x"></div>
+                <div class="container">
+                    <div class="section-head">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-9 col-xl-8 col-xxl-7">
+                                <h6 class="overline-title text-primary">Get started for free</h6>
+                                <h2 class="title">AI Generate content in seconds</h2>
+                                <p class="lead">Give our AI a few descriptions and we'll automatically create blog
+                                    articles, product descriptions and more for you within just few second.</p>
+                            </div>
+                        </div>
+                    </div><!-- .section-head -->
+                    <div class="section-content">
+                        <div class="row text-center g-gs">
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card rounded-4 border-0 shadow-tiny h-100">
+                                    <div class="card-body">
+                                        <div class="feature">
+                                            <div class="feature-media">
+                                                <div class="media media-middle media-xl text-bg-primary-soft rounded-4">
+                                                    <em class="icon ni ni-book-read"></em>
+                                                </div>
+                                            </div>
+                                            <div class="feature-text">
+                                                <h4 class="title">Blog Post &amp; Articles</h4>
+                                                <p>Generate optimized blog post and articles to get organic traffic -
+                                                    making you visible to the world. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card rounded-4 border-0 shadow-tiny h-100">
+                                    <div class="card-body">
+                                        <div class="feature">
+                                            <div class="feature-media">
+                                                <div class="media media-middle media-xl text-bg-primary-soft rounded-4">
+                                                    <em class="icon ni ni-card-view"></em>
+                                                </div>
+                                            </div>
+                                            <div class="feature-text">
+                                                <h4 class="title">Product Description</h4>
+                                                <p>Create a perfect description for your products to engage your
+                                                    customers to click and buy.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card rounded-4 border-0 shadow-tiny h-100">
+                                    <div class="card-body">
+                                        <div class="feature">
+                                            <div class="feature-media">
+                                                <div class="media media-middle media-xl text-bg-primary-soft rounded-4">
+                                                    <em class="icon ni ni-facebook-f"></em>
+                                                </div>
+                                            </div>
+                                            <div class="feature-text">
+                                                <h4 class="title">Social Media Ads</h4>
+                                                <p>Create ads copies for your social media - make an impact with your
+                                                    online marketing campaigns.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card rounded-4 border-0 shadow-tiny h-100">
+                                    <div class="card-body">
+                                        <div class="feature">
+                                            <div class="feature-media">
+                                                <div class="media media-middle media-xl text-bg-primary-soft rounded-4">
+                                                    <em class="icon ni ni-grid-plus"></em>
+                                                </div>
+                                            </div>
+                                            <div class="feature-text">
+                                                <h4 class="title">Product Benefits</h4>
+                                                <p>Create a bullet point list of your product benefits that appeal to
+                                                    your customers to purchase.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card rounded-4 border-0 shadow-tiny h-100">
+                                    <div class="card-body">
+                                        <div class="feature">
+                                            <div class="feature-media">
+                                                <div class="media media-middle media-xl text-bg-primary-soft rounded-4">
+                                                    <em class="icon ni ni-layout2"></em>
+                                                </div>
+                                            </div>
+                                            <div class="feature-text">
+                                                <h4 class="title">Landing Page Content</h4>
+                                                <p>Write very attractive headlines, slogans or paragraph for your
+                                                    landing page of your website.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card rounded-4 border-0 shadow-tiny h-100">
+                                    <div class="card-body">
+                                        <div class="feature">
+                                            <div class="feature-media">
+                                                <div class="media media-middle media-xl text-bg-primary-soft rounded-4">
+                                                    <em class="icon ni ni-loader"></em>
+                                                </div>
+                                            </div>
+                                            <div class="feature-text">
+                                                <h4 class="title">Suggest Improvements</h4>
+                                                <p>Need to improve your existing content? Our AI will rewrite and
+                                                    improve the content for you.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .section-content -->
+                </div><!-- .container -->
+            </section><!-- .section -->
+            <section class="section has-mask">
+                <div class="nk-mask bg-pattern-dot bg-blend-around mt-10p mb-3"></div>
+                <div class="container">
+                    <!-- <div class="section-head">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-9 col-xl-8 col-xxl-7">
+                                <h6 class="overline-title text-primary">How it works</h6>
+                                <h2 class="title">Instruct to our AI and generate copy</h2>
+                                <p class="lead">Give our AI a few descriptions and we'll automatically create blog
+                                    articles, product descriptions and more for you within just few second.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-content">
+                        <div class="row g-gs">
+                            <div class="col-lg-4">
+                                <div class="feature feature-inline">
+                                    <div class="feature-text me-auto">
+                                        <h4 class="title">Select writing template</h4>
+                                        <p>Simply choose a template from available list to write content for blog posts,
+                                            landing page, website content etc. </p>
+                                    </div>
+                                    <div class="feature-decoration flex-shrink-0 ms-4">
+                                        <img src="images/number/1.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="feature feature-inline">
+                                    <div class="feature-text me-auto">
+                                        <h4 class="title">Describe your topic</h4>
+                                        <p>Provide our AI content writer with few sentences on what you want to write,
+                                            and it will start writing for you. </p>
+                                    </div>
+                                    <div class="feature-decoration flex-shrink-0 ms-4">
+                                        <img src="images/number/2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="feature feature-inline">
+                                    <div class="feature-text me-auto">
+                                        <h4 class="title">Generate quality content</h4>
+                                        <p>Our powerful AI tools will generate content in few second, then you can
+                                            export it to wherever you need.</p>
+                                    </div>
+                                    <div class="feature-decoration flex-shrink-0 ms-4">
+                                        <img src="images/number/3.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-actions text-center">
+                        <ul class="btn-list btn-list-inline gx-gs gy-3">
+                            <li><a href="#" class="btn btn-primary btn-lg"><span>Start free trial today</span></a></li>
+                            <li><a href="#" class="btn btn-primary btn-soft btn-lg"><em
+                                        class="icon ni ni-play"></em><span>See action in video</span></a></li>
+                        </ul>
+                    </div> -->
+
+                    <div class="section-content">
+                        <div class="row gx-5 align-items-center" style="row-gap: 10rem">
+                            <div class="col-lg-6 col-xl-6">
+                                <div class="block-gfx pe-xl-5 pe-lg-3">
+                                    <img class="rounded-4 shadow-lg" src="./images/chatgpt4.jpg" alt=""
+                                        style="width: 450px;">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-xl-6">
+                                <div class="block-text">
+                                    <h2 class="title">
+                                        <a href="https://chatgp.se/ai/ChatGPT" class="fs-3">Try ChatConvo Plus Internet GPT-4 for free↗</a>
+                                    </h2>
+                                    <p>GPT-4 is OpenAI’s most advanced system, producing safer and more useful
+                                        responses, GPT-4 can solve difficult problems with greater accuracy, thanks to
+                                        its broader general knowledge and problem solving abilities. With our advanced
+                                        prompts engineering templates, you can create compelling job ads that attract
+                                        top talent, write engaging blog posts that captivate your audience, and craft
+                                        effective social media ads that drive conversions. Like ChatGPT Plus but with
+                                        internet access, references, AI image generation and not limited to 2021,
+                                        integrates with Google Search to create content with the latest information.
+                                        designed to save your orgnization time and effort by making working with Gmail,
+                                        Twitter, LinkedIn, and the web more productive.Available in <a href="https://appsource.microsoft.com/en-us/product/web-apps/gptechnologiesab1688113151654.chatgpt-gpt-4-saas" target="_blank">Azure MarketPlace</a> and <a href="https://aws.amazon.com/marketplace/pp/prodview-fk4xbj3ch2e4o" target="_blank">AWS Marketplace</a>.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-xl-6">
+                                <div class="block-text">
+                                    <h2 class="title">
+                                        <a href="https://chatgp.se/tools" class="fs-3">Try DALL·E 2 for free ↗</a>
+                                    </h2>
+                                    <p>Our AI-powered image generator can bring your ideas to life, Design like never
+                                        before with Dall-e. Generate unique, high-quality images in seconds, Simply
+                                        input your idea or concept, and Dall-e will do the rest, Say goodbye to stock
+                                        images and hello to custom visuals. Dall-e allows you to create images that
+                                        perfectly fit your project, without the need for expensive photo shoots or
+                                        time-consuming editing. Plus, with the ability to share and download your
+                                        images, you can easily integrate them into your workflow and share them with
+                                        others.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-xl-6">
+                                <div class="block-gfx ps-xl-5 ps-lg-3">
+                                    <img class="rounded-4 shadow-lg" src="./images/dalle.jpg" alt=""
+                                        style="width: 450px;">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-xl-6">
+                                <div class="block-gfx pe-xl-5 pe-lg-3">
+                                    <video class="w-100 rounded-4 shadow-lg" loop muted autoplay>
+                                        <source
+                                            src="https://s3.eu-north-1.amazonaws.com/chatgp.se/ChatGPT-gpt-4-chrome-extention.mp4"
+                                            type="video/mp4">
+                                    </video>
+                                    <!-- <img class="w-100 rounded-4" src="images/gfx/feature/a.jpg" alt=""> -->
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-xl-6">
+                                <div class="block-text">
+                                    <h2 class="title">
+                                        <a href="https://chrome.google.com/webstore/detail/chatgpt-for-google-ai-ema/aoalmmfccpahldepdohigicplnemkdne/" class="fs-3">Get Free Chrome extension to generate entire emails and
+                                            messages using AI ↗</a>
+                                    </h2>
+                                    <p>All sites are supported and enhanced support for Gmail, You do not need to spend
+                                        hours to answer your emailsor write good content — let our advance AI Writer to
+                                        get it done. Write emails & messages, fix grammar mistakes, rephrase text,
+                                        change writing tone, summarize text, and much more using AI. Works on all sites.
+                                        Free to use.Use it in Google Docs, email clients, social media, and across the
+                                        web. Convosuite.com for Chrome works across: - Google Docs - Gmail - Linkedin -
+                                        Twitter - Facebook And more!.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-xl-6">
+                                <div class="block-text">
+                                    <h2 class="title">
+                                        <a href="https://s3.eu-north-1.amazonaws.com/chatgp.se/ChatGPT_0.12.0_x64_en-US.msi" class="fs-3">Install Free Desktop Application (Windows) ↗</a>
+                                    </h2>
+                                    <p>Introducing AI Desktop App: Multi-Platform, Text-to-Speech, Export History, and
+                                        More!. . Powerful menu items . Export Chat history (PNG, PDF and Markdown) .
+                                        Text-to-Speech. . Automatic application upgrade notification. . System tray
+                                        hover window.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-xl-6">
+                                <div class="block-gfx ps-xl-5 ps-lg-3">
+                                    <video class="w-100 rounded-4 shadow-lg" loop muted autoplay>
+                                        <source
+                                            src="https://s3.eu-north-1.amazonaws.com/chatgp.se/ChatGPT-gpt-4-desktop-app.mp4"
+                                            type="video/mp4">
+                                    </video>
+                                    <!-- <img class="w-100 rounded-4" src="images/gfx/feature/a.jpg" alt=""> -->
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-xl-6">
+                                <div class="block-gfx pe-xl-5 pe-lg-3">
+                                    <video class="w-100 rounded-4 shadow-lg" loop muted autoplay>
+                                        <source src="https://s3.eu-north-1.amazonaws.com/chatgp.se/gpt-4-tools.mp4"
+                                            type="video/mp4">
+                                    </video>
+                                    <!-- <img class="w-100 rounded-4" src="images/gfx/feature/a.jpg" alt=""> -->
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-xl-6">
+                                <div class="block-text">
+                                    <h2 class="title">
+                                        <a href="https://chatgp.se/tools" class="fs-3">Advanced Prompts Engineering GPT-4 Templates free trial ↗</a>
+                                    </h2>
+                                    <p>With our advanced prompts engineering templates, you can create compelling job
+                                        ads that attract top talent, write engaging blog posts that captivate your
+                                        audience, and craft effective social media ads that drive conversions. Chat
+                                        Turbo Plus can even help you with writing code by suggesting coding solutions
+                                        and troubleshooting errors.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-xl-6">
+                                <div class="block-text">
+                                    <h2 class="title">
+                                        <a href="https://aws.amazon.com/marketplace/pp/prodview-fk4xbj3ch2e4o" class="fs-3">OpenAI GPT-4 SaaS Solution on AWS GPT-4, GPT-3.5, Plus
+                                            internet with EdgeReady Cloud for your website and create Unlimited
+                                            users ↗</a>
+                                    </h2>
+                                    <p>Our OpenAI GPT-4 Clean Core with EdgeReady Cloud and Plus is the perfect solution
+                                        for companies, schools, institutes, looking to modernize their Intranet or ERP
+                                        Marketing systems. Leverage the power of OpenAI API, a state-of-the-art AI
+                                        language model, and EdgeReady Cloud's low-code/no-code platform to optimize your
+                                        operations and stay ahead of the competition. Available in <a href="https://appsource.microsoft.com/en-us/product/web-apps/gptechnologiesab1688113151654.chatgpt-gpt-4-saas" target="_blank">Azure MarketPlace</a> and <a href="https://aws.amazon.com/marketplace/pp/prodview-fk4xbj3ch2e4o" target="_blank">AWS Marketplace</a>.</p>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-xl-6">
+                                <div class="block-gfx ps-xl-5 ps-lg-3">
+                                    <img class="w-100 rounded-4 shadow-lg" src="./images/available in azure-marketplace.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-xl-6">
+                                <div class="block-gfx pe-xl-5 pe-lg-3">
+                                    <video class="w-100 rounded-4 shadow-lg" loop muted autoplay>
+                                        <source
+                                            src="https://s3.eu-north-1.amazonaws.com/chatgp.se/chatgpt-saas-gpt-4-openai-tools.mp4"
+                                            type="video/mp4">
+                                    </video>
+                                    <!-- <img class="w-100 rounded-4" src="images/gfx/feature/a.jpg" alt=""> -->
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-xl-6">
+                                <div class="block-text">
+                                    <h2 class="title">
+                                        <a href="https://chatgp.se/ai/ChatGPT" class="fs-3">GPT-3.5, GPT-4 with internet access.
+                                            ↗</a>
+                                    </h2>
+                                    <p>The GPT-4 API offers remarkable internet-enabled capabilities, transforming the way you interact with the digital world. With the ability to summarize webpages, it can distill complex information into concise overviews. It excels in crafting tailored email marketing templates to engage your audience, and can dynamically list products in tables for easy comparison. But that's not all – the GPT-4 API can write, analyze, and even predict, paving the way for endless possibilities in content creation, automation, and more. Unlock the power of AI with GPT-4.</p>
+                                </div>
+                            </div>
+                        </div><!-- .row -->
+                    </div><!-- .section-content -->
+                </div><!-- .container -->
+            </section><!-- .section -->
+            <section class="d-none section section-bottom-0 section-top-0">
+                <div class="container">
+                    <div class="section-head">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-9 col-xl-7 col-xxl-6">
+                                <h6 class="overline-title text-primary">Pricing</h6>
+                                <h2 class="title">Start your content writing with AI</h2>
+                                <p class="lead px-lg-10 px-xxl-9">With our simple plans, supercharge your content
+                                    writing to helps your business.</p>
+                            </div>
+                        </div>
+
+                    </div><!-- .section-content -->
+                </div><!-- .container -->
+            </section><!-- .section -->
+            <section class="section section-bottom-0">
+                <div class="container">
+                    <div class="section-head">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-xl-8">
+                                <h2 class="title">Frequently Asked Questions</h2>
+                            </div>
+                        </div>
+                    </div><!-- .section-head -->
+                    <div class="section-content">
+                        <div class="row g-gs justify-content-center">
+                            <div class="col-xl-9 col-xxl-8">
+                                <div class="accordion accordion-flush accordion-plus-minus accordion-icon-accent"
+                                    id="faq-1">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" data-bs-toggle="collapse"
+                                                data-bs-target="#faq-1-1"> Will my team have access to the most powerful version of ChatGPT, GPT-4? </button>
+                                        </h2>
+                                        <div id="faq-1-1" class="accordion-collapse collapse show"
+                                            data-bs-parent="#faq-1">
+                                            <div class="accordion-body">Yes, your team will enjoy unlimited access to the robust and advanced GPT-4 within ChatGPT. Manage individual billing effortlessly, providing each team member with the resources they need.</div>
+                                        </div>
+                                    </div><!-- .accordion-item -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#faq-1-2"> Why is ChatConvo secure?
+                                            </button>
+                                        </h2>
+                                        <div id="faq-1-2" class="accordion-collapse collapse" data-bs-parent="#faq-1">
+                                            <div class="accordion-body">ChatConvo's security is prioritized through Convosuite.com, which accesses ChatGPT via the Azure and OpenAI API. Rest assured, your data is protected and never used for training purposes, maintaining the integrity and confidentiality of your information.
+                                            </div>
+                                        </div>
+                                    </div><!-- .accordion-item -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#faq-1-3"> Who owns the data my team uploads to the platform? </button>
+                                        </h2>
+                                        <div id="faq-1-3" class="accordion-collapse collapse" data-bs-parent="#faq-1">
+                                            <div class="accordion-body">Ownership of data rests solely with you. Control and manage all information uploaded by your team members, ensuring a secure and transparent environment for your business operations.</div>
+                                        </div>
+                                    </div><!-- .accordion-item -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#faq-1-4"> Are Convosuite.com Al generated responses always
+                                                factual? </button>
+                                        </h2>
+                                        <div id="faq-1-4" class="accordion-collapse collapse" data-bs-parent="#faq-1">
+                                            <div class="accordion-body">AI Chat generates responses using machine
+                                                learning algorithms that are trained on a vast corpus of text data.
+                                                While the responses generated by AI Chat are designed to be as factual
+                                                as possible, they may not always be entirely accurate. The language
+                                                model behind GPT AI Models is based on statistical patterns and
+                                                associations within its training data, and it generates responses based
+                                                on what it has learned from that data. As such, there may be instances
+                                                where AI generates a response that is not entirely accurate, or that
+                                                does not take into account the full context of the user's input. It's
+                                                important to keep in mind that GPT is a language model, and while it can
+                                                provide helpful and informative responses, it should not be relied upon
+                                                as a sole source of information for making important decisions or taking
+                                                actions. Users should always exercise critical thinking and verify any
+                                                information they receive from GPT models through additional sources.
+                                                That being said, GPT Models is continually improving as it learns from
+                                                new data, and its responses are generally quite accurate and helpful.
+                                                The language model is designed to generate responses that are relevant,
+                                                coherent, and tailored to the specific input it receives, making it a
+                                                valuable tool for a wide range of applications.</div>
+                                        </div>
+                                    </div><!-- .accordion-item -->
+                                </div><!-- .accordion -->
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </section>
+
+                </div><!-- .section-actions -->
+            </div><!-- .container -->
+
+                </div><!-- .container -->
+            </section><!-- .section -->
+            <section class="section section-bottom-0">
+                <div class="container">
+                    <div class="section-wrap bg-primary bg-opacity-10 rounded-4">
+                        <div class="section-content bg-pattern-dot-sm p-4 p-sm-6">
+                            <div class="row justify-content-center text-center">
+                                <div class="col-xl-9">
+                                    <div class="block-text">
+                                        <!-- <h6 class="overline-title text-primary">Boost your writing productivity</h6> -->
+                                        <h2 class="title">Ready to get started?</h2>
+                                        <p class="lead mt-3">Unlock the Power of AI with Revolutionary ChatConvo
+                                            built on top of the OpenAI API.</p>
+                                        <ul class="btn-list btn-list-inline">
+                                            <li><a href="contact.html" class="btn btn-lg btn-primary"><span>Book a
+                                                        demo</span><em class="icon ni ni-arrow-long-right"></em></a>
+                                            </li>
+                                        </ul>
+                                        <!-- <ul class="list list-row gy-0 gx-3">
+                                            <li><em class="icon ni ni-check-circle-fill text-success"></em><span>No
+                                                    credit card required</span></li>
+                                            <li><em class="icon ni ni-check-circle-fill text-success"></em><span>Cancel
+                                                    anytime</span></li>
+                                            <li><em class="icon ni ni-check-circle-fill text-success"></em><span>10+
+                                                    tools to expolore</span></li>
+                                        </ul> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- .section-content -->
+                    </div><!-- .section-wrap -->
+                </div><!-- .container -->
+            </section><!-- .section -->
+        </main>
+
+        <footer class="nk-footer">
+            <div class="section section-sm section-top-0">
+                <div class="container">
+                    <div class="row g-5">
+                        <div class="col-xl-4 col-lg-7 col-md-9 me-auto">
+                            <div class="block-text pe-xxl-5">
+                                <a href="index.html" class="logo-link mb-4">
+                                    <div class="logo-wrap">
+                                        <img class="logo-img logo-dark" src="images/logo-green-dark2x.png" srcset="images/logo-green-dark2x.png 2x" alt="">
+                                    </div>
+                                </a>
+                                <p>Empowering Innovation: AI Simplified, Solutions Amplified, Unlock the limitless potential of AI.</p>
+                            </div>
+                        </div><!-- .col -->
+                        <div class="col-xl">
+                            <div class="row g-gs">
+                                <div class="col-lg-3 col-sm-4 col-6">
+                                    <div class="wgs">
+                                        <h6 class="wgs-title overline-title text-heading">Company</h6>
+                                        <ul class="list gy-2 list-link-base">
+                                            <li><a class="link-base" href="#">About Us</a></li>
+                                            <li><a class="link-base" href="terms-condition.html">Terms & Conditions</a></li>
+                                            <li><a class="link-base" href="privacy-policy.html">Privacy Policy</a></li>
+                                        </ul>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-lg-3 col-sm-4 col-6">
+                                    <div class="wgs">
+                                        <h6 class="wgs-title overline-title text-heading">Solutions</h6>
+                                        <ul class="list gy-2 list-link-base">
+                                            <li><a class="link-base" href="index.html">AI ChatBots</a></li>
+                                            <li><a class="link-base" href="chat-convo.html">Internal AI Tools</a></li>
+                                            <li><a class="link-base" href="chat-convo.html">Prompts Engineering Templates</a></li>
+                                            <li><a class="link-base" href="contact.html">Enterprise</a></li>
+                                        </ul>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-lg-3 col-sm-4 col-6">
+                                    <div class="wgs">
+                                        <h6 class="wgs-title overline-title text-heading">Support</h6>
+                                        <ul class="list gy-2 list-link-base">
+                                            <li><a class="link-base" href="contact.html">Contact Us</a></li>
+                                            <li><a class="link-base" href="https://docs.convosuite.com">Documentation</a></li>
+                                            <li><a class="link-base" href="contact.html">Report a Bug</a></li>
+                                            <li><a class="link-base" href="contact.html">Request a New Feature</a></li>
+                                        </ul>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-lg-3 col-md-5 col-sm-6">
+                                    <div class="wgs">
+                                        <h6 class="wgs-title overline-title text-heading">Get In Touch</h6>
+                                        <ul class="list gy-3">
+                                            <li><em class="icon text-primary fs-5 ni ni-mail-fill"></em> <span>support@convosuite.com</span></li>
+                                            <li><em class="icon text-primary fs-5 ni ni-map-pin-fill"></em> <span>Sweden, Stockholm, Sundbyberg</span></li>
+                                        </ul>
+                                    </div>
+                                </div><!-- .col -->
+                            </div><!-- .row -->
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .container -->
+            </div><!-- .section -->
+            <div class="section section-0">
+                <hr class="border-opacity-25 border-primary m-0">
+                <div class="container">
+                    <div class="py-4">
+                        <div class="row">
+                            <div class="col-md">
+                                <p class="mb-2 mb-md-0">All Rights Reserved. &copy; 2023. GP Technologies AB, Org:559435-9936 <a href="https://www.convosuite.com" class="fw-bold text-base">Convosuite</a>.</p>
+                        </div><!-- .row -->
+                    </div>
+                </div><!-- .container -->
+            </div><!-- .section -->
+        </footer>
+    </div>
+    <script src="assets/js/bundle.js?v1.2.0"></script>
+    <script src="assets/js/scripts.js?v1.2.0"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XBQLJCL455"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XBQLJCL455');
+</script>
+</body>
+
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/gh/convosuite/FlowChatEmbed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "54c38010-4bf7-477a-8efa-231b63a23626",
+        apiHost: "https://studio.convosuite.com",
+    })
+</script>
